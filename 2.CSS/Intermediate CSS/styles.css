@@ -1,0 +1,54 @@
+/* Global Styles */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+/* Header Styles */
+h1 {
+    color: #66BFBF;
+    width: 100%;
+    margin: 20px 0;
+    font-family: "Sacramento", serif;
+    font-size: 90px;
+}
+
+h2, h3 {
+    color: #66BFBF;
+    font-family: "Montserrat", serif;
+    margin: 10px 0;
+}
+
+/* Container Styles */
+div {
+    background-color: #e4f9f5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Image Styles */
+.mountain-img, .boy-img, .software-img, .bulb-img {
+    width: 15%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Centralized Images with Text */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}

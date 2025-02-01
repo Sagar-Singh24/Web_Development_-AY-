@@ -14,4 +14,4 @@ Main:- The focus of this Repositry is to maintain a code for Web development.
 <br>
 5.The Documents Object Model [DOM]
 <br>
-6.Advanced JavaScript
+6.Advanced JavaScript And DOM Manipulation.

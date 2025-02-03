@@ -18,7 +18,7 @@ Main:- The focus of this Repositry is to maintain a code for Web development.
 <br>
 7.jQuery
 <br>
-8.Boss Level Challenge.
+8.Boss Level Challenge
 <br>
 9.Nodejs
 <br>

@@ -40,14 +40,6 @@ app.post("/", function(req, res) {
   // NOTE: The API KEY BELOW HAS BEEN DISABLED ON MAILCHIMP
   //       AS THIS CODE WILL BE PUSHED TO PUBLIC GITHUB
 
-  var options = {
-    url: 'https://us3.api.mailchimp.com/3.0/lists/c88fb2ef24',
-    method: 'POST',
-    headers: {
-      'Authorization': "anand1 8a8caf31357e4496e62d3e3690b8797b-us3"
-    },
-    body: jsonData
-  }
 
   request(options, function(error, response, body) {
     if (error) {
